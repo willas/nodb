@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/willas/log"
+	"github.com/lunny/log"
 	"github.com/willas/nodb/config"
 )
 
