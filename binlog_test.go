@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lunny/nodb/config"
+	"github.com/willas/nodb/config"
 )
 
 func TestBinLog(t *testing.T) {

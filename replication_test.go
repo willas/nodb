@@ -7,8 +7,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/lunny/nodb/config"
-	"github.com/lunny/nodb/store"
+	"github.com/willas/nodb/config"
+	"github.com/willas/nodb/store"
 )
 
 func checkLedisEqual(master *Nodb, slave *Nodb) error {

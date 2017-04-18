@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/nodb/store/driver"
 )
 
 func TestTx(t *testing.T) {

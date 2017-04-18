@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/lunny/log"
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/log"
+	"github.com/willas/nodb/store/driver"
 )
 
 const (

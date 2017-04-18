@@ -1,7 +1,7 @@
 package store
 
 import (
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/nodb/store/driver"
 )
 
 type Tx struct {

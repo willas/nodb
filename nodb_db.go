@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lunny/nodb/store"
+	"github.com/willas/nodb/store"
 )
 
 type ibucket interface {

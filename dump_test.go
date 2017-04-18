@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lunny/nodb/config"
-	"github.com/lunny/nodb/store"
+	"github.com/willas/nodb/config"
+	"github.com/willas/nodb/store"
 )
 
 func TestDump(t *testing.T) {

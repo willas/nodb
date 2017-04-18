@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 	"path"
-	"github.com/lunny/nodb/config"
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/nodb/config"
+	"github.com/willas/nodb/store/driver"
 
-	_ "github.com/lunny/nodb/store/goleveldb"
+	_ "github.com/willas/nodb/store/goleveldb"
 )
 
 func getStorePath(cfg *config.Config) string {

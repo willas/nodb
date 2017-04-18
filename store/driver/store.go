@@ -3,7 +3,7 @@ package driver
 import (
 	"fmt"
 
-	"github.com/lunny/nodb/config"
+	"github.com/willas/nodb/config"
 )
 
 type Store interface {

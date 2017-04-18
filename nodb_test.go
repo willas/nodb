@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lunny/nodb/config"
+	"github.com/willas/nodb/config"
 )
 
 var testLedis *Nodb

@@ -1,6 +1,6 @@
 # NoDB
 
-[English](https://github.com/lunny/nodb/blob/master/README.md)
+[English](https://github.com/willas/nodb/blob/master/README.md)
 
 Nodb 是 [ledisdb](https://github.com/siddontang/ledisdb) 的克隆和缩减版本。该版本去掉了所有C和其它语言的依赖，只保留Go语言的。目标是提供一个Nosql数据库的开发库而不是提供一个像Redis那样的服务器。因此如果你想要的是一个独立服务器，你可以直接选择ledisdb。
 
@@ -17,15 +17,15 @@ Nodb 当前底层使用 (goleveldb)[https://github.com/syndtr/goleveldb] 来存�
 
 ## 安装
 
-    go get github.com/lunny/nodb
+    go get github.com/willas/nodb
 
 ## 例子
 
 ### 打开和选择数据库
 ```go
 import(
-  "github.com/lunny/nodb"
-  "github.com/lunny/nodb/config"
+  "github.com/willas/nodb"
+  "github.com/willas/nodb/config"
 )
 
 cfg := new(config.Config)
@@ -72,8 +72,8 @@ ay, err := db.ZRangeByScore(key, minScore, maxScore, 0, -1)
 ## 链接
 
 + [Ledisdb Official Website](http://ledisdb.com)
-+ [GoDoc](https://godoc.org/github.com/lunny/nodb)
-+ [GoWalker](https://gowalker.org/github.com/lunny/nodb)
++ [GoDoc](https://godoc.org/github.com/willas/nodb)
++ [GoWalker](https://gowalker.org/github.com/willas/nodb)
 
 
 ## 感谢

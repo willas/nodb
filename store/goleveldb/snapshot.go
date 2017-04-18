@@ -1,7 +1,7 @@
 package goleveldb
 
 import (
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/nodb/store/driver"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

@@ -3,7 +3,7 @@ package store
 import (
 	"bytes"
 
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/nodb/store/driver"
 )
 
 const (

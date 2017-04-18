@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lunny/log"
-	"github.com/lunny/nodb/config"
+	"github.com/willas/log"
+	"github.com/willas/nodb/config"
 )
 
 type BinLogHead struct {

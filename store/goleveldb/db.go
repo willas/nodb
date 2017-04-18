@@ -7,8 +7,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 
-	"github.com/lunny/nodb/config"
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/nodb/config"
+	"github.com/willas/nodb/store/driver"
 
 	"os"
 )

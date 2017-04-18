@@ -5,7 +5,7 @@ import (
 	"errors"
 	"regexp"
 
-	"github.com/lunny/nodb/store"
+	"github.com/willas/nodb/store"
 )
 
 var errDataType = errors.New("error data type")

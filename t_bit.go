@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/lunny/nodb/store"
+	"github.com/willas/nodb/store"
 )
 
 const (

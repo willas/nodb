@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lunny/log"
-	"github.com/lunny/nodb/config"
-	"github.com/lunny/nodb/store"
+	"github.com/willas/log"
+	"github.com/willas/nodb/config"
+	"github.com/willas/nodb/store"
 )
 
 type Nodb struct {

@@ -3,7 +3,7 @@ package nodb
 import (
 	"sync"
 
-	"github.com/lunny/nodb/store"
+	"github.com/willas/nodb/store"
 )
 
 type batch struct {

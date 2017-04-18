@@ -1,6 +1,6 @@
 # NoDB
 
-[中文](https://github.com/lunny/nodb/blob/master/README_CN.md)
+[中文](https://github.com/willas/nodb/blob/master/README_CN.md)
 
 Nodb is a fork of [ledisdb](https://github.com/siddontang/ledisdb) and shrink version. It's get rid of all C or other language codes and only keep Go's. It aims to provide a nosql database library rather than a redis like server. So if you want a redis like server, ledisdb is the best choose.
 
@@ -17,15 +17,15 @@ Nodb now use [goleveldb](https://github.com/syndtr/goleveldb) as backend to stor
 
 ## Install
 
-    go get github.com/lunny/nodb
+    go get github.com/willas/nodb
 
 ## Package Example
 
 ### Open And Select database
 ```go
 import(
-  "github.com/lunny/nodb"
-  "github.com/lunny/nodb/config"
+  "github.com/willas/nodb"
+  "github.com/willas/nodb/config"
 )
 
 cfg := new(config.Config)
@@ -75,8 +75,8 @@ ay, err := db.ZRangeByScore(key, minScore, maxScore, 0, -1)
 ## Links
 
 + [Ledisdb Official Website](http://ledisdb.com)
-+ [GoDoc](https://godoc.org/github.com/lunny/nodb)
-+ [GoWalker](https://gowalker.org/github.com/lunny/nodb)
++ [GoDoc](https://godoc.org/github.com/willas/nodb)
++ [GoWalker](https://gowalker.org/github.com/willas/nodb)
 
 
 ## Thanks

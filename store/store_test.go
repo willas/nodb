@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lunny/nodb/config"
-	"github.com/lunny/nodb/store/driver"
+	"github.com/willas/nodb/config"
+	"github.com/willas/nodb/store/driver"
 )
 
 func TestStore(t *testing.T) {
